@@ -2,13 +2,7 @@ body {
     margin: 0;
     background-color: #252525;
   }
-  
-  canvas {
-    display: block;
-    vertical-align: bottom;
-  }
-  
-  
+
   /* ---- particles.js container ---- */
   
   #particles-js {
@@ -16,3 +10,41 @@ body {
     width: 100%;
     height: 100%;
   }
+
+  /* ---- header container ---- */
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    position: absolute;
+    overflow: hidden;
+    margin: 30px auto;
+    width: 30%;
+    padding: 10px;
+    max-height: 500px;
+    max-width: 100%;
+    height: auto;
+    animation: star 10s ease-out;
+  }
+
+  @keyframes star {
+    0% {
+      opacity: 0;
+      transform: scale(1.2) translateY(-0.75em);
+    }
+    20% {
+      opacity: 0.5;
+    }
+    90% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* ---- nav container ---- */
+  /* ---- main container ---- */
+  /* ---- footer container ---- */
+

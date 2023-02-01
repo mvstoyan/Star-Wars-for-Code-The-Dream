@@ -1,4 +1,10 @@
+"use strict";
 
+// ---- api ----
+
+
+
+// ---- particles.js ----
 
 particlesJS("particles-js", {
     "particles": {
