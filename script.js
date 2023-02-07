@@ -1,9 +1,73 @@
 "use strict";
 
-// ---- api ----
+// ---- SWAPI api ----
+const filmsContainer = document.querySelector("#films");
+const charactersContainer = document.querySelector("#characters");
+const characterInfoContainer = document.querySelector("#character-info");
 
+  // Fetch the list of films
+  fetch("https://swapi.dev/api/films/")
+    .then((res) => res.json())
+    .then((data) => {
+      // Display the list of films
+      data.results.forEach((film) => {
+        const button = document.createElement("button");
+        button.innerText = film.title;
+        button.addEventListener("click", () => {
+          displayCharacters(film.characters);
+        });
+        filmsContainer.appendChild(button);
+      });
+    });
 
+  // Display the list of characters for a selected film
+  const displayCharacters = (characters) => {
+    charactersContainer.innerHTML = "";
+    characters.forEach((character) => {
+      fetch(character)
+        .then((res) => res.json())
+        .then((data) => {
+          const button = document.createElement("button");
+          button.innerText = data.name;
+          button.addEventListener("click", () => {
+            displayCharacterInfo(data);
+          });
+          charactersContainer.appendChild(button);
+        });
+    });
+  };
 
+  // Display information about a selected character
+  const displayCharacterInfo = (character) => {
+    characterInfoContainer.innerHTML = "";
+    const name = document.createElement("h2");
+    name.innerText = character.name;
+    characterInfoContainer.appendChild(name);
+
+    const height = document.createElement("p");
+    height.innerText = `Height: ${character.height}`;
+    characterInfoContainer.appendChild(height);
+
+    const mass = document.createElement("p");
+    mass.innerText = `Mass: ${character.mass}`;
+    characterInfoContainer.appendChild(mass);
+
+    const gender = document.createElement("p");
+    gender.innerText = `Gender: ${character.gender}`;
+    characterInfoContainer.appendChild(gender);
+
+    const hair_color = document.createElement("p");
+    hair_color.innerText = `Hair color: ${character.hair_color}`;
+    characterInfoContainer.appendChild(hair_color);
+
+    const eye_color = document.createElement("p");
+    eye_color.innerText = `Eye color: ${character.eye_color}`;
+    characterInfoContainer.appendChild(eye_color);
+
+    const birth_year = document.createElement("p");
+    birth_year.innerText = `Birth year: ${character.birth_year}`;
+    characterInfoContainer.appendChild(birth_year);
+  };
 // ---- particles.js ----
 
 particlesJS("particles-js", {

@@ -1,50 +1,59 @@
 body {
-    margin: 0;
-    background-color: #252525;
-  }
+  margin: 0;
+  background-color: #252525;
+}
 
-  /* ---- particles.js container ---- */
+/* ---- particles.js container ---- */
   
-  #particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* ---- header logo wirh animation scale---- */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  margin: 30px auto;
+  width: 30%;
+  padding: 10px;
+  max-height: 500px;
+  max-width: 100%;
+  height: auto;
+  animation: star 10s ease-out;
+}
+
+@keyframes star {
+  0% {
+    opacity: 0;
+    transform: scale(1.2) translateY(-0.75em);
   }
-
-  /* ---- header container ---- */
-  header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  20% {
+    opacity: 0.5;
   }
-
-  .logo {
-    position: absolute;
-    overflow: hidden;
-    margin: 30px auto;
-    width: 30%;
-    padding: 10px;
-    max-height: 500px;
-    max-width: 100%;
-    height: auto;
-    animation: star 10s ease-out;
+  90% {
+    opacity: 1;
+    transform: scale(1);
   }
+}
 
-  @keyframes star {
-    0% {
-      opacity: 0;
-      transform: scale(1.2) translateY(-0.75em);
-    }
-    20% {
-      opacity: 0.5;
-    }
-    90% {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
+/* ---- main ---- */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  /* ---- nav container ---- */
-  /* ---- main container ---- */
-  /* ---- footer container ---- */
-
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
