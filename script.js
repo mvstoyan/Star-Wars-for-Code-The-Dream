@@ -5,11 +5,11 @@ const filmsContainer = document.querySelector("#films");
 const charactersContainer = document.querySelector("#characters");
 const characterInfoContainer = document.querySelector("#character-info");
 
-  // Fetch the list of films
+  // Fetch the list buttons films
   fetch("https://swapi.dev/api/films/")
     .then((res) => res.json())
     .then((data) => {
-      // Display the list of films
+      // Display film buttons
       data.results.forEach((film) => {
         const button = document.createElement("button");
         button.innerText = film.title;
@@ -20,19 +20,19 @@ const characterInfoContainer = document.querySelector("#character-info");
       });
     });
 
-  // Display the list of characters for a selected film
+  // Display the list of characters
   const displayCharacters = (characters) => {
     charactersContainer.innerHTML = "";
     characters.forEach((character) => {
       fetch(character)
         .then((res) => res.json())
         .then((data) => {
-          const button = document.createElement("button");
-          button.innerText = data.name;
-          button.addEventListener("click", () => {
+          const a = document.createElement("a");
+          a.innerText = data.name;
+          a.addEventListener("click", () => {
             displayCharacterInfo(data);
           });
-          charactersContainer.appendChild(button);
+          charactersContainer.appendChild(a);
         });
     });
   };

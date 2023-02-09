@@ -9,9 +9,22 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+  z-index: -1;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
 }
 
 /* ---- header logo wirh animation scale---- */
+
+#container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 header {
   width: 100%;
   display: flex;
@@ -45,15 +58,65 @@ header {
 /* ---- main ---- */
 main {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  align-items: center;
+  width: 100%;
+}
+
+/*--- films ---*/
+#films {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 button {
   margin: 10px;
-  padding: 10px 20px;
-  background-color: lightblue;
-  border: none;
+  width: 190px;
+  padding: 20px;
+  background-color: transparent;
+  color: #ffffff;
+  border: #ffffff 1px solid;
   border-radius: 5px;
   cursor: pointer;
 }
+
+/*--- characters ---*/
+#characters {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+a {
+  margin: 10px;
+  width: 150px;
+  padding: 5px;
+  text-align: center;
+  color: #e5b13a;
+  border: #e5b13a 1px solid;
+  border-radius: 5px;
+}
+
+/*--- character-info ---*/
+#character-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0px 20px;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  color: #e5b13a;
+  padding: 0px 20px;
+  margin: 0;
+}
+
