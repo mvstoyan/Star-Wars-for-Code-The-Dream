@@ -6,6 +6,8 @@ const charactersContainer = document.querySelector("#characters");
 const characterInfoContainer = document.querySelector("#character-info");
 
   // Fetch the list buttons films
+  //JavaScript Array forEach()
+  //The appendChild() method
   fetch("https://swapi.dev/api/films/")
     .then((res) => res.json())
     .then((data) => {
