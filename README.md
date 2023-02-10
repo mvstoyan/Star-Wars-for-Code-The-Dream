@@ -13,9 +13,15 @@
       <li><a href="https://www.w3schools.com/html/" target="_blank">HTML</a></li>
       <li><a href="https://www.w3schools.com/css/" target="_blank">CSS</a></li>
       <li><a href="https://javascript.info/" target="_blank">JavaScript</a></li>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector" target="_blank">Document.querySelector()</a></li>
+          <li><a href="https://www.w3schools.com/js/js_json.asp" target="_blank">JavaScript JSON</a></li>
+          <li><a href="https://www.w3schools.com/jsref/jsref_foreach.asp" target="_blank">Array forEach()</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement" target="_blank">Document.createElement()</a></li>
+          <li><a href="https://www.w3schools.com/jsref/met_document_addeventlistener.asp" target="_blank">Document addEventListener()</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild" target="_blank">Node.appendChild()</a></li>
+        </ul>
       <li><a href="https://www.freecodecamp.org/news/how-to-make-api-calls-with-fetch/" target="_blank">Fetch API</a></li>
-      <li><a href="https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/" target="_blank">Fetch API</a></li>
-      <li><a href="https://www.javascripttutorial.net/javascript-fetch-api/" target="_blank">JavaScript Fetch API</a></li>
       <li><a href="https://www.swapi.tech/" target="_blank">Star Wars API</a></li>
       <li><a href="https://codepen.io/bob6664569" target="_blank">Stars Particles JavaScript</a></li>
       <li><a href="" target="_blank">Image Source</a></li>
