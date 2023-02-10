@@ -1,12 +1,12 @@
-<h1><em><a href="" target="_blank">STAR WARS API</a><em></h1>
-    <img src="img/screen.png" alt="Project photo" width="400px">
-    <img src="img/screens.png" alt="Project photo" width="400px">
-    <img src="img/phoneScreen.jpg" alt="Project photo" width="200px">
+<h1><em><a href="https://star-wars-mvstoyan.netlify.app" target="_blank">STAR WARS API</a><em></h1>
+    <img src="img/screen.png" alt="Project photo" width="500px">
 <hr>
   <h3>Features:</h3>
   <p>Pre-work for advanced classes in Code The Dream</p>
     <ul>
       <li>Responsive, on all devices</li>
+      <img src="img/screens.png" alt="Project photo" width="400px">
+      <img src="img/phoneScreen.jpg" alt="Project photo" width="200px">
    </ul>
 <hr>
   <h3>Technologies Used</h3>
