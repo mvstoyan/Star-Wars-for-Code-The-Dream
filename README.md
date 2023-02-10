@@ -25,8 +25,8 @@
   <h3>Website Demo</h3>
 <div>
 
-https://github.com/mvstoyan/Star-Wars-for-Code-The-Dream/blob/main/demo.mp4 
 
+https://user-images.githubusercontent.com/95896159/217970464-ddb4d705-97c7-4d04-9a8f-99424164056f.mp4
 
 
 
