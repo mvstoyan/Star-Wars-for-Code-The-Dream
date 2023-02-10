@@ -137,6 +137,10 @@ main {
   margin: 10px;
 }
 
+button {
+  font-size: 20px;
+}
+
 p {
   padding: 0px 10px;
 }
