@@ -1,5 +1,6 @@
 <h1><em><a href="" target="_blank">STAR WARS API</a><em></h1>
-    <img src="img/screen.png" alt="Project photo" width="auto">
+    <img src="img/screen.png" alt="Project photo" width="500px">
+    <img src="img/phoneScreen.png" alt="Project photo" width="500px">
 <hr>
   <h3>Features:</h3>
   <p>Pre-work for advanced classes in Code The Dream</p>
