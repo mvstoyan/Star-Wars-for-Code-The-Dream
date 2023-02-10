@@ -1,7 +1,7 @@
 <h1><em><a href="" target="_blank">STAR WARS API</a><em></h1>
-    <img src="img/screen.png" alt="Project photo" width="300px">
-    <img src="img/phoneScreen.jpg" alt="Project photo" width="300px">
-    <img src="img/screens.png" alt="Project photo" width="300px">
+    <img src="img/screen.png" alt="Project photo" width="400px">
+    <img src="img/screens.png" alt="Project photo" width="400px">
+    <img src="img/phoneScreen.jpg" alt="Project photo" width="200px">
 <hr>
   <h3>Features:</h3>
   <p>Pre-work for advanced classes in Code The Dream</p>
@@ -25,7 +25,7 @@
   <h3>Website Demo</h3>
 <div>
 
-
+https://github.com/mvstoyan/Star-Wars-for-Code-The-Dream/blob/main/demo.mp4 
 
 
 
