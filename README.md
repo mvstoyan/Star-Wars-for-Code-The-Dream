@@ -5,8 +5,7 @@
   <p>Pre-work for advanced classes in Code The Dream</p>
     <ul>
       <li>Responsive, on all devices</li>
-      <img src="img/screens.png" alt="Project photo" width="400px">
-      <img src="img/phoneScreen.jpg" alt="Project photo" width="200px">
+      <img src="img/screens.png" alt="Project photo" width="500px">
    </ul>
 <hr>
   <h3>Technologies Used</h3>
